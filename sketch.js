@@ -1,7 +1,7 @@
 
 var x = 100;
   var y = 100;
-  var speed = 4;
+  var speed = 300;
 function setup() {
 
   createCanvas(500, 500);
@@ -13,6 +13,10 @@ function draw() {
   
   fill(255, 0, 0, 150);
   rect(x, y, 50,50);
+  rect(x+speed, y, 50,50);
+  rect(x+speed, y+speed, 50,50);
+  rect(x+speed, y, 50,50);
+  
   
   
   fill(0, 0, 255, 100);

@@ -1,11 +1,20 @@
 function setup() {
 
   createCanvas(500, 500);
-  background(0);
+  
 }
 
 function draw() {
-
+  background(0);
   fill(255);
-  rect(100, 100, 50,50);
+  var x = 100;
+  var y = 100;
+  var speed = 4;
+  if(x < 400 || y < 400){
+    x+=speed;
+  }else if(y < 400){
+    y+=speed;
+  }
+  
+  rect(x, y, 50,50);
 }

@@ -10,14 +10,11 @@ function setup() {
 
 function draw() {
   background(0);
-  fill(255);
   
-  if(x < 400 && y == 100){
-    x+=speed;
-    y = 101;
-  }else{
-    x-=speed;
-  }
-  
+  fill(255, 0, 0, 150);
   rect(x, y, 50,50);
+  
+  
+  fill(0, 0, 255, 100);
+  ellipse(250, 250, 100, 100);
 }

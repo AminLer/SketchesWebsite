@@ -12,11 +12,11 @@ function draw() {
   background(0);
   fill(255);
   
-  if(x < 400 || y < 400){
+  if(x < 400 && y < 400){
     x+=speed;
-  }else if(y < 400){
+  }else if(y < 400 && x == 400){
     y+=speed;
-  }else if(x > 400){
+  }else if(x > 400 && y == 400){
     x-=speed;
   }else if(y > 400){
     y-=speed;

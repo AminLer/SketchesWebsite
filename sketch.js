@@ -15,7 +15,7 @@ function draw() {
   rect(x, y, 50,50);
   rect(x+speed, y, 50,50);
   rect(x+speed, y+speed, 50,50);
-  rect(x+speed, y, 50,50);
+  rect(x, y+speed, 50,50);
   
   
   

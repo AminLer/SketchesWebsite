@@ -13,9 +13,10 @@ function draw() {
   fill(255);
   
   if(x < 400 && x > 100){
-    x+=speed;
+    -speed;
   }else{
-    x-=speed;
+    +speed;
   }
+  x += speed;
   rect(x, y, 50,50);
 }

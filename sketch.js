@@ -16,6 +16,10 @@ function draw() {
     x+=speed;
   }else if(y < 400){
     y+=speed;
+  }else if(x > 400){
+    x-=speed;
+  }else if(y > 400){
+    y-=speed;
   }
   
   rect(x, y, 50,50);

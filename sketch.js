@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(0, 150);
   
   fill(255, 0, 0, 150);
   rect(x, y, 50,50);
